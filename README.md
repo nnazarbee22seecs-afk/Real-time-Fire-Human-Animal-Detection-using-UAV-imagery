@@ -7,9 +7,9 @@ Team:
 ## 👥 Team Members
 | Name | CMS ID | Role |
 |------|--------|------|
-| [Ayesha Hussain] | [] | Simulation & Algorithms |
-| [Arbaaz Alam] | [CMS ID] | Research & Documentation |
-| [Bushra] | [CMS ID] | Research & Documentation |
+| [Ayesha Hussain] | [404215] | Simulation & Algorithms |
+| [Arbaaz Alam] | [411425] | Research & Documentation |
+| [Bushra] | [429427] | Research & Documentation |
 | [Nayab ] | [414017] | Embedded Systems |
 
 ## 📋 Project Overview
