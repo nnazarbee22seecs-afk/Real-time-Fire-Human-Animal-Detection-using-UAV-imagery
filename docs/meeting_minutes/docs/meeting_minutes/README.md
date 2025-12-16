@@ -1,11 +1,17 @@
 # Minutes of Meeting (MoM)
 
 **Project Title:** Real-Time Multi-Class Detection for UAV Search & Rescue
+
 **Repository:** GitHub (Project Documentation)
+
 **Meeting Type:** Project Kick-off & Planning
+
 **Mode:** In-person / Online
+
 **Date:** 20 November 2025
+
 **Time:** 03:00 PM – 04:00 PM
+
 **Location:** University Lab / Online (Team Coordination)
 
 ---
