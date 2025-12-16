@@ -122,7 +122,6 @@ Here are sample detections from the model showing both **fire** and **smoke** de
 
 | Scenario | Detection Result |
 |:----------:|:----------------:|
-| **Outdoor Fire Detection**<br>![Outdoor Fire](results/fire%20detection1.png) | ✅ **Fire detected**<br>Confidence: 0.92 |
 | **Indoor Fire Detection**<br>![Indoor Fire](results/fire%20detection2.png) | ✅ **Fire detected**<br>Confidence: 0.89 |
 | **Multiple Fire Sources**<br>![Multiple Fires](results/fire%20detection3.png) | ✅ **Multiple fires detected**<br>Confidence: 0.87-0.91 |
 | **Real Fire Scenario**<br>![Real Fire](results/real%20fire.png) | ✅ **Fire & smoke detected**<br>Confidence: 0.94 |
