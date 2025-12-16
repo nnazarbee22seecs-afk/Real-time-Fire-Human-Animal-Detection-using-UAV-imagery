@@ -1,16 +1,18 @@
-# 🔥 Smoke & Fire Detection using YOLOv12
+# 🔥 Real-time Smoke & Fire Detection using YOLOv12
 
 
 
-An advanced real-time **Smoke and Fire Detection System** built using **YOLOv12** for object detection.  
-This project detects smoke and fire in video streams, images or live camera feeds with high accuracy and speed.
+Multi-Platform Deployment: Colab, Local, and NVIDIA Orin Nano
 
+An advanced real-time detection system built with YOLOv12 for identifying smoke and fire across diverse computing environments from cloud based prototyping with Google Colab to power efficient, real world inference on the NVIDIA Jetson Orin edge device.
 ---
 
 ## 🎯 Project Overview
 
-This repository demonstrates a **deep learning-based fire and smoke detection system** that uses the YOLOv12 model for real-time inference.  
-The system can be used for early fire detection in surveillance cameras, industrial safety, and smart cities.
+This repository demonstrates a **deep learning-based fire and smoke detection system** that uses the YOLOv12 model for real-time inference. 
+This project implements a full-stack deep learning pipeline for a critical safety application. It's not just a model but a complete workflow that validates the system's performance in three key environments, ensuring robustness from development to deployment.
+Core Architecture: YOLOv12 (Attention-Centric Design) → Ultralytics Framework → Platform-Specific Optimization
+The system can be used for early fire detection through surveillance UAV's,safety, and smart cities.
 
 ---
 
@@ -28,11 +30,9 @@ The system can be used for early fire detection in surveillance cameras, industr
 ## 🧠 Model
 
 The detection model is based on **YOLOv12**, trained on a custom dataset of smoke and fire images.  
-You can fine-tune or retrain it using the training notebook provided.
+You can fine tune or retrain it using the training notebook provided.
 
 --
-
----
 
 ## ⚡ Installation
 
