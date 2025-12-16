@@ -20,7 +20,9 @@ python3 fire_hybrid.py
 **Controls While Running:**
 - **Press `q`** to quit
 - **Press `s`** to save a screenshot
-
+  
+## ⚡ Real-Time Preview
+![Fire Detection Demo](fire_demo.gif)
 ---
 
 ## 📋 Prerequisites Setup
