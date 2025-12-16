@@ -1,6 +1,6 @@
 # Project Logbook
 
-**Project Title:** Real-Time Multi-Class Detection for UAV Search & Rescue
+**Project Title:** Real-Time Fire Detection for UAV Search & Rescue
 
 **Academic Program:** Final Year Project
 
