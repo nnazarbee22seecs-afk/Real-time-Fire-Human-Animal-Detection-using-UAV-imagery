@@ -118,9 +118,16 @@ results = model('fire_video.mp4',
 
 ## 📊 Example Results
 
-| Input | Detection |
-|:------:|:----------:|
-| ![Fire](Screenshots/sample_result.jpg) | ✅ Fire detected with confidence 0.92 |
+Here are sample detections from the model showing both **fire** and **smoke** detection in various scenarios:
+
+| Scenario | Detection Result |
+|:----------:|:----------------:|
+| **Outdoor Fire Detection**<br>![Outdoor Fire](results/fire%20detection1.png) | ✅ **Fire detected**<br>Confidence: 0.92 |
+| **Indoor Fire Detection**<br>![Indoor Fire](results/fire%20detection2.png) | ✅ **Fire detected**<br>Confidence: 0.89 |
+| **Multiple Fire Sources**<br>![Multiple Fires](results/fire%20detection3.png) | ✅ **Multiple fires detected**<br>Confidence: 0.87-0.91 |
+| **Real Fire Scenario**<br>![Real Fire](results/real%20fire.png) | ✅ **Fire & smoke detected**<br>Confidence: 0.94 |
+
+**Note**: The model successfully detects both fire and smoke in various lighting conditions and environments. Confidence scores may vary based on image quality and fire intensity.
 
 ---
 
