@@ -13,7 +13,7 @@ Team:
 | [Nayab ] | [414017] | Embedded Systems |
 
 ## 📋 Project Overview
-This project extends our previous **FireLite-Seg** segmentation work (96.85% accuracy, 11.6 FPS on Jetson Nano) to include **human and animal detection** for complete UAV-based search and rescue operations.
+This project extends our previous **FireLite-Seg** segmentation work (96.85% accuracy, 11.6 FPS on Jetson Nano) to include **Fire,Human and Animal detection** for complete UAV-based search and rescue operations.
 
 ### 🔬 Previous Work Included
 - FireLite-Seg: Lightweight fire segmentation model
@@ -22,7 +22,7 @@ This project extends our previous **FireLite-Seg** segmentation work (96.85% acc
 - Evaluation metrics (IoU: 96.32%, Dice: 97.45%)
 
 ### 🎯 New Objectives
-1. **Multi-class Detection**: Fire + Human + Animal
+1. **Detection models**: Fire + Human + Animal
 2. **Real-time Performance**: Target 15-25 FPS on Jetson Nano
 3. **Search & Rescue Integration**: Alert system for emergency response
 
