@@ -1,8 +1,11 @@
 # Project Logbook
 
 **Project Title:** Real-Time Multi-Class Detection for UAV Search & Rescue
+
 **Academic Program:** Final Year Project
+
 **Team Size:** 4 Members
+
 **Submission Date:** 17 December 2025
 
 ---
@@ -125,14 +128,6 @@
 * Approved final results for submission.
 * Submitted project documentation and code to GitHub.
 
----
 
-## Supervisor Remarks
 
-*(To be filled by Supervisor)*
-
----
-
-**Maintained by:** Arbaaz Alam
-**Role:** Research & Documentation
 
