@@ -35,7 +35,7 @@ The objective of this meeting was to formally initiate the project, define the p
 
 ## 3. Project Overview
 
-The project aims to design and implement a **real-time multi-class detection system** mounted on a **UAV (Unmanned Aerial Vehicle)** to assist in **search and rescue missions**. The system will be capable of detecting and classifying multiple object categories (e.g., humans, animals, obstacles, fire/smoke) from aerial imagery or video streams using computer vision and machine learning techniques. The solution emphasizes **real-time performance, accuracy, and practical deployment constraints**.
+The project aims to design and implement a **real-time detection system** mounted on a **UAV (Unmanned Aerial Vehicle)** to assist in **search and rescue missions**. The system will be capable of detecting and classifying multiple object categories (e.g., humans, animals, obstacles, fire/smoke) from aerial imagery or video streams using computer vision and machine learning techniques. The solution emphasizes **real-time performance, accuracy, and practical deployment constraints**.
 
 ---
 
@@ -56,7 +56,7 @@ The project aims to design and implement a **real-time multi-class detection sys
 
 ### 5.1 Detection Approach
 
-* The team agreed to use **deep learning–based object detection** for multi-class recognition due to better robustness and accuracy in aerial imagery.
+* The team agreed to use **deep learning–based object detection** for detection due to better robustness and accuracy in aerial imagery.
 * Lightweight models suitable for real-time inference (e.g., YOLO-based architectures) will be explored.
 
 ### 5.2 Simulation & Testing
@@ -109,9 +109,9 @@ The project aims to design and implement a **real-time multi-class detection sys
 | Task                                       | Assigned To    | Deadline         |
 | ------------------------------------------ | -------------- | ---------------- |
 | Literature review on UAV-based detection   | Bushra         | 20 November 2025 |
-| Algorithm selection and simulation setup   | Ayesha Hussain | 20 November 2025 |
+| Algorithm selection and simulation setup  | Ayesha Hussain | 20 November 2025 |
 | Project documentation & GitHub structuring | Arbaaz Alam    | 20 November 2025 |
-| Embedded system feasibility study          | Nayab          | 20 November 2025 |
+| Embedded system integration of whole system         | Nayab          | 20 November 2025 |
 
 ---
 
