@@ -26,4 +26,4 @@ This project extends our previous **FireLite-Seg** segmentation work (96.85% acc
 2. **Real-time Performance**: Target 15-25 FPS on Jetson Nano
 3. **Search & Rescue Integration**: Alert system for emergency response
 
-## 📁 Repository Structure
+Every sub-project Segmentation, Detection and Deployment have their on Readme files and contain full information to use those projects for future works.
