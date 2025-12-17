@@ -149,7 +149,7 @@ Accuracy Frontier:
 
 ## 🎯 Segmentation Results Visualization
 
-![Segmentation Results](assets/segmentation_results.png)
+![Segmentation Results](lightweight_results.png)
 *Sample results showing: (a) RGB input, (b) Ground truth, (c) FireLite-Seg prediction, (d) Reference ground truth*
 
 **Observations:**
