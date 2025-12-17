@@ -144,7 +144,7 @@ Accuracy Frontier:
 | DeepLabV3 | 1.2M | 9.9M | 149,459 | 224,482 |
 
 
-![Confusion Matrices Visual Results](Confusion_matrices.jpeg)  
+![Confusion Matrices Visual Results](Confusion_matrices.png)  
 **Insight:** FireLite-Seg achieves balanced precision-recall with manageable false positives, making it suitable for practical deployment.
 
 ---
