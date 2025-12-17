@@ -200,26 +200,6 @@ graph TB
 
 ---
 
-## 📁 Repository Structure (Current)
-
-```
-├── README.md                       # This documentation
-├── research_paper.pdf              # Full research paper (upon publication)
-├── assets/                         # Visual results and diagrams
-│   ├── architecture_diagram.png
-│   ├── performance_charts.png
-│   └── segmentation_examples.png
-├── benchmarks/                     # Performance benchmarking data
-│   ├── inference_times.csv
-│   ├── accuracy_metrics.csv
-│   └── power_measurements.csv
-└── docs/                           # Additional documentation
-    ├── methodology.md
-    ├── deployment_guide.md
-    └── hardware_setup.md
-```
-
----
 
 ## 🤝 Collaboration & Model Access
 
