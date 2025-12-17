@@ -42,7 +42,28 @@ model_path = '/content/drive/MyDrive/Smoke-Fire-Detection-YOLO-V12-main/Smoke Fi
 - **Input Resolution**: 640x640
 - **Training Epochs**: 100+
 - **mAP@0.5**: >0.85
+Model Architecture Description:
+Backbone
 
+The backbone consists of a sequence of stride-2 convolutional layers that progressively downsample the input while increasing the channel depth. Initial feature extraction is performed using standard Conv–BatchNorm–SiLU blocks to capture low-level spatial patterns.
+
+To enhance feature representation with minimal computational overhead, the backbone incorporates multiple C3k2 blocks, which are lightweight cross-stage partial modules that improve gradient flow and promote feature reuse.
+
+At deeper layers, A2C2f blocks are employed to integrate convolutional processing with attention-based feature modulation. These blocks utilize query–key–value projections, depthwise convolutional positional encoding, and compact MLP layers, enabling the network to emphasize spatially salient regions such as smoke dispersion patterns and flame structures.
+Neck
+
+The neck follows a Feature Pyramid Network (FPN) style architecture to enable effective multi-scale feature fusion. High-level semantic features are upsampled using nearest-neighbor interpolation and concatenated with lower-level spatial features through skip connections.
+
+The fused features are further refined using additional A2C2f and C3k blocks, preserving both fine-grained spatial details required for early smoke detection and high-level contextual information essential for accurate fire localization.
+Detection Head
+
+The detection head operates across three feature scales, enabling robust detection of objects of varying sizes. Each detection branch includes:
+
+A convolutional pathway for bounding box regression
+
+A depthwise-separable convolutional pathway for classification
+
+The model predicts two classes: fire and smoke, and employs a Distribution Focal Loss (DFL) layer for bounding box regression. DFL improves localization accuracy by modeling bounding box offsets as probability distributions rather than single scalar values.
 ### **Model Performance**
 - **Real-time detection** (30+ FPS on GPU)
 - **High accuracy** for both fire and smoke
