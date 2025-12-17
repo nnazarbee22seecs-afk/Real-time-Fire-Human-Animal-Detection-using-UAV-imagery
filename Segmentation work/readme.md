@@ -149,16 +149,10 @@ Accuracy Frontier:
 
 ## 🎯 Segmentation Results Visualization
 
-![Segmentation Results](lightweight_results.png)
-*Sample results showing: (a) RGB input, (b) Ground truth, (c) FireLite-Seg prediction, (d) Reference ground truth*
+The segmentation performance of FireLite-Seg is visually demonstrated in the comparative analysis below, showcasing the model's ability to accurately identify fire regions from RGB input. As shown in the results, the predicted mask closely aligns with the ground truth annotation, effectively capturing flame boundaries and spatial extent even under challenging outdoor conditions with background clutter and smoke interference.
 
-**Observations:**
-- Accurate flame boundary detection
-- Robust to background clutter and varying illumination
-- Effective in smoke-interference scenarios
-- Consistent performance across different fire intensities
-
----
+![Segmentation Visual Results](lightweight_results.jpeg)  
+*Figure: FireLite-Seg segmentation results (from top to bottom): RGB input, ground truth mask, model prediction, and reference validation mask.*
 
 ## 🚀 System Architecture
 
