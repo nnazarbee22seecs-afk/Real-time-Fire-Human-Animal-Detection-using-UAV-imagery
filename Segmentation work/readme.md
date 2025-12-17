@@ -1,3 +1,5 @@
+I'll add your accuracy comparison table right after the "Key Performance Results" section. Here's the updated README with the table integrated:
+
 # 🔥 FireLite-Seg: Edge-Enabled Real-Time Fire Segmentation from UAV-Based Aerial Imagery
 
 **Research in Progress** • **Lightweight Segmentation** • **Jetson Nano Deployment** • **UAV Applications**
@@ -30,11 +32,22 @@ Wildfires have become increasingly frequent and destructive due to climate chang
 | DeepLabV3 | 26.0M | 1.58 | 632.52 | 95.2 | 96.5 | 88.3 | 85.1 | 86.7 |
 | **Improvement vs U-Net** | **-99.2%** | **+540%** | **-84%** | **-0.27%** | **-0.31%** | **-4.0%** | **-0.1%** | **-2.1%** |
 
+### **Detailed Accuracy Comparison**
+
+| Model | Accuracy (%) | IoU (%) | Dice (%) |
+|---|---|---|---|
+| **FireLite-Seg (with skip connections)** | **96.32** | **96.85** | **97.32** |
+| U-Net | 96.64 | 97.07 | 97.58 |
+| DeepLabV3 | 96.24 | 96.77 | 97.14 |
+| Light Model (without skip connections) | 95.4 | 94.45 | 95.81 |
+
 ### **Key Findings:**
 - ✅ **6.4x faster** than U-Net on Jetson Nano (11.6 FPS vs 1.81 FPS)
 - ✅ **99.2% parameter reduction** (0.2M vs 24.4M)
 - ✅ **Real-time capable** (86ms inference time, <100ms target)
-- ✅ **Minimal accuracy trade-off** (<0.5% IoU reduction)
+- ✅ **Minimal accuracy trade-off** (only 0.32% lower accuracy than U-Net)
+- ✅ **Skip connections critical:** 0.92% IoU improvement over skip-less version
+- ✅ **Superior to DeepLabV3:** Higher accuracy across all metrics
 - ✅ **Balanced precision-recall** (89.9% precision, 84.7% recall)
 
 ---
@@ -177,6 +190,7 @@ graph TB
 2. **Edge Optimization:** TensorRT-compatible design for Jetson Nano
 3. **Real-time Performance:** 11.6 FPS with <100ms latency
 4. **Comprehensive Benchmarking:** Compared against U-Net and DeepLabV3
+5. **Ablation Study:** Demonstrated importance of skip connections (+0.92% IoU)
 
 ### **Practical Contributions:**
 1. **Deployable Solution:** Ready for UAV integration
@@ -266,6 +280,7 @@ Required Information:
 3. **Multi-UAV Coordination:** Swarm intelligence for large-area coverage
 4. **On-device Training:** Incremental learning for environment adaptation
 5. **Energy Optimization:** Further reduce power consumption for extended missions
+6. **Ablation Studies:** Further analyze architectural components' impact
 
 ---
 
