@@ -1,4 +1,4 @@
-I'll add your accuracy comparison table right after the "Key Performance Results" section. Here's the updated README with the table integrated:
+
 
 # 🔥 FireLite-Seg: Edge-Enabled Real-Time Fire Segmentation from UAV-Based Aerial Imagery
 
