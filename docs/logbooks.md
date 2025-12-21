@@ -1,6 +1,4 @@
-Looking at your logbook and comparing it with your actual project work, I can see **several mismatches**. Your logbook talks about "multi-class detection" and "human/animal detection" but your actual project is **fire/smoke detection only**. Here's an **improved logbook** that matches what you actually built:
 
----
 
 # 📘 **Project Logbook**
 
@@ -242,5 +240,3 @@ REAL-TIME FIRE DETECTION SYSTEM
 *Maintained by: CS-477 Group 06*
 
 ---
-
-This logbook now **accurately reflects your actual project work** (fire/smoke detection only) with realistic weekly progress that matches what you built.
