@@ -17,7 +17,7 @@ This folder contains a real-time fire detection methods optimized for **NVIDIA J
 
   
 ### 3. **fire_yolo.py** - YOLO-Based Detection
-- ✅ **High accuracy**: Uses trained YOLO model for fire/smoke
+- ✅ **High accuracy**: Uses trained YOLOv-12 model for fire/smoke
 - ✅ **Segmentation masks**: Visual overlay of detected regions
 - ⚠️ **Slower**: 5-10 FPS on Jetson Orin (GPU acceleration helps)
 - 📦 **Requires**: Pre-trained model file (`Smoke Fire.pt`)(Model file is given in Detection folder)
