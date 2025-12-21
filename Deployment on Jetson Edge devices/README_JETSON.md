@@ -9,14 +9,9 @@ This folder contains a real-time fire detection methods optimized for **NVIDIA J
 - ✅ **Ultra-fast**: 30+ FPS on Jetson Orin
 - ✅ **Detects small flames**: Works perfectly with lighter flames
 
-  
-### 2. **fire_flicker.py** - Advanced Flicker Detection
-- ✅ **Smart filtering**: Distinguishes actual fire from red objects (e.g., lighter body)
-- ✅ **Triple verification**: Color + Brightness + Flicker analysis
-- ✅ **Reduces false positives**: Won't detect humans or static red objects
 
   
-### 3. **fire_yolo.py** - YOLO-Based Detection
+### 2. **fire_yolo.py** - YOLO-Based Detection
 - ✅ **High accuracy**: Uses trained YOLOv-12 model for fire/smoke
 - ✅ **Segmentation masks**: Visual overlay of detected regions
 - ⚠️ **Slower**: 5-10 FPS on Jetson Orin (GPU acceleration helps)
