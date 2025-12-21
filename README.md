@@ -1,4 +1,5 @@
 # Real-time-Fire-Human-Animal-Detection-using-UAV-imagery
+![GitHub Actions](https://github.com/your-username/your-repo/actions/workflows/greetings.yml/badge.svg)
 **Course:** CS-477 Computer Vision - Fall 2025  
 **Instructor:** Dr. Tauseef ur Rehman  
 **Lab Engineer:** Ms. Tehniyat Siddiqui   
