@@ -6,7 +6,7 @@
 **Academic Program:** CS-477 Computer Vision - Fall 2025  
 **Team Size:** 4 Members  
 **Submission Date:** 19 December 2025  
-**Repository:** [GitHub Link](https://github.com/nnazarbee22seecs/Real-time-Fire-Human-Animal-Detection-using-UAV-imagery)
+**Repository:** [GitHub Link](https://github.com/nnazarbee22seecs-afk/Real-time-Fire-Human-Animal-Detection-using-UAV-imagery/tree/main)
 
 ---
 
