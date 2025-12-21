@@ -1,5 +1,5 @@
 # Real-time-Fire-Human-Animal-Detection-using-UAV-imagery
-[![CI Status](https://github.com/nnazarbee22seecs/Real-time-Fire-Human-Animal-Detection-using-UAV-imagery/workflows/Greetings/badge.svg)](https://github.com/nnazarbee22seecs/Real-time-Fire-Human-Animal-Detection-using-UAV-imagery/actions)
+![GitHub Actions](https://github.com/nnazarbee22seecs/Real-time-Fire-Human-Animal-Detection-using-UAV-imagery/actions/workflows/greetings.yml/badge.svg)
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green.svg)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-red.svg)
