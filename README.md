@@ -27,7 +27,4 @@ This project extends our previous **FireLite-Seg** segmentation work (96.85% acc
 3. **Search & Rescue Integration**: Alert system for emergency response
 
 Every sub-project Segmentation, Detection and Deployment have their on Readme files and contain full information to use those projects for future works.
-echo "" >> README.md
-git add README.md
-git commit -m "Test CI trigger"
-git push
+
