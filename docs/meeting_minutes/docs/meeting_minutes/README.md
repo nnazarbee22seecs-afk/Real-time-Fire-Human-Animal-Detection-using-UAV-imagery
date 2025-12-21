@@ -1,6 +1,6 @@
 # Minutes of Meeting (MoM)
 
-**Project Title:** Real-Time Multi-Class Detection for UAV Search & Rescue
+**Project Title:** Real-Time Multi-Class Fire for UAV Search & Rescue
 
 **Repository:** GitHub (Project Documentation)
 
