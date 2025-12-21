@@ -1,5 +1,8 @@
 # Real-time-Fire-Human-Animal-Detection-using-UAV-imagery
-![GitHub Actions](https://github.com/your-username/your-repo/actions/workflows/greetings.yml/badge.svg)
+![GitHub Actions](https://github.com/nnazarbee22seecs/Real-time-Fire-Human-Animal-Detection-using-UAV-imagery/actions/workflows/greetings.yml/badge.svg)
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
+![Python](https://img.shields.io/badge/Python-3.8%2B-green.svg)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-red.svg)
 **Course:** CS-477 Computer Vision - Fall 2025  
 **Instructor:** Dr. Tauseef ur Rehman  
 **Lab Engineer:** Ms. Tehniyat Siddiqui   
