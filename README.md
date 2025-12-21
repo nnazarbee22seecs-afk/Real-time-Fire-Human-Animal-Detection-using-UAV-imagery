@@ -1,4 +1,4 @@
-# Real-time-Fire-/Smoke-Detection-using-UAV-imagery
+# Real-time-Fire/Smoke-Detection-using-UAV-imagery
 ![GitHub Actions](https://github.com/nnazarbee22seecs/Real-time-Fire-Human-Animal-Detection-using-UAV-imagery/actions/workflows/greetings.yml/badge.svg)
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green.svg)
