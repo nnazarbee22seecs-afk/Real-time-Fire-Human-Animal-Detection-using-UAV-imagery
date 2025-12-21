@@ -1,1 +1,238 @@
+ @article{1,
+  title={Computer vision for wildfire research: An evolving image dataset for processing and analysis},
+  author={Toulouse, Tom and Rossi, Lucile and Campana, Antoine and Celik, Turgay and Akhloufi, Moulay A},
+  journal={Fire Safety Journal},
+  volume={92},
+  pages={188--194},
+  year={2017},
+  publisher={Elsevier}
+}
+@inproceedings{2,
+  title={Early wildfire detection using UAVs integrated with air quality and LiDAR sensors},
+  author={Rjoub, Doaa and Alsharoa, Ahmad and Masadeh, Ala’Eddin},
+  booktitle={2022 IEEE 96th Vehicular Technology Conference (VTC2022-Fall)},
+  pages={1--5},
+  year={2022},
+  organization={IEEE}
+}
+ @article{3,
+  title={A review on early wildfire detection from unmanned aerial vehicles using deep learning-based computer vision algorithms},
+  author={Bouguettaya, Abdelmalek and Zarzour, Hafed and Taberkit, Amine Mohammed and Kechida, Ahmed},
+  journal={Signal Processing},
+  volume={190},
+  pages={108309},
+  year={2022},
+  publisher={Elsevier}
+}
+@inproceedings{4,
+  title={Edge Computing-Based Wildfire Detection and Optimization Algorithm},
+  author={Hu, Zheng and Shi, Sihong and Ye, Yiming and He, Weiwei and Yang, Zhi and Li, Xiaojuan and Feng, Shengwen},
+  booktitle={2024 7th International Conference on Advanced Algorithms and Control Engineering (ICAACE)},
+  pages={236--240},
+  year={2024},
+  organization={IEEE}
+}
+5) @article{5,
+  title={Benchmarking deep learning models on nvidia jetson nano for real-time systems: An empirical investigation},
+  author={Swaminathan, Tushar Prasanna and Silver, Christopher and Akilan, Thangarajah and Kumar, Jitendra},
+  journal={Procedia Computer Science},
+  volume={260},
+  pages={906--913},
+  year={2025},
+  publisher={Elsevier}
+}
+@article{6,
+  title={A deep learning-based experiment on forest wildfire detection in machine vision course},
+  author={Wang, Lidong and Zhang, Huixi and Zhang, Yin and Hu, Keyong and An, Kang},
+  journal={IEEE Access},
+  volume={11},
+  pages={32671--32681},
+  year={2023},
+  publisher={IEEE}
+}
+ @article{7,
+  title={Lightweight and attention-based CNN architecture for wildfire detection using UAV vision data},
+  author={Aral, Rahmi Arda and Zalluhoglu, Cemil and Akcapinar Sezer, Ebru},
+  journal={International Journal of Remote Sensing},
+  volume={44},
+  number={18},
+  pages={5768--5787},
+  year={2023},
+  publisher={Taylor \& Francis}
+}
+ @inproceedings{8,
+  title={UAV-Based Efficient and Reliable Wildfire Detection on the Edge},
+  author={Tasnim, Samia and Singh, Ananya and Hasan, Tasnimul and Ahmed, Imtiaz},
+  booktitle={2024 IEEE 10th World Forum on Internet of Things (WF-IoT)},
+  pages={511--516},
+  year={2024},
+  organization={IEEE}
+}
+ @article{9,
+  title={A lightweight hierarchical AI model for UAV-enabled edge computing with forest-fire detection use-case},
+  author={Fouda, Mostafa M and Sakib, Sadman and Fadlullah, Zubair Md and Nasser, Nidal and Guizani, Mohsen},
+  journal={IEEE Network},
+  volume={36},
+  number={6},
+  pages={38--45},
+  year={2022},
+  publisher={IEEE}
+}
+ @article{10,
+  title={Edge AI System for Real-Time and Explainable Forest Fire Detection Using Compressed Deep Learning Models},
+  author={Mahmoudi, Sidi Ahmed and Gloesener, Maxime and Benkedadra, Mohamed and Lerat, Jean-S{\'e}bastien},
+  journal={Proc. Copyr},
+  volume={847},
+  pages={854},
+  year={2025}
+}
+@article{11,
+  title={Real-Time Fire Detection: Integrating Lightweight Deep Learning Models on Drones with Edge Computing},
+  author={Titu, Md Fahim Shahoriar and Pavel, Mahir Afser and Michael, Goh Kah Ong and Babar, Hisham and Aman, Umama and Khan, Riasat},
+  journal={Drones},
+  volume={8},
+  number={9},
+  pages={483},
+  year={2024},
+  publisher={MDPI}
+}
+@article{12,
+  title={A Forest Fire Smoke Monitoring System Based on a Lightweight Neural Network for Edge Devices},
+  author={Huang, Jingwen and Yang, Huizhou and Liu, Yunfei and Liu, Han},
+  journal={Forests},
+  volume={15},
+  number={7},
+  pages={1092},
+  year={2024},
+  publisher={MDPI}
+}
+@inproceedings{13,
+  title={Accelerated computer vision inference with AI on the edge},
+  author={Mittal, Varnit and Bhushan, Bharat},
+  booktitle={2020 IEEE 9th International Conference on Communication Systems and Network Technologies (CSNT)},
+  pages={55--60},
+  year={2020},
+  organization={IEEE}
+}
+@inproceedings{14,
+  title={Edge computing in IoT ecosystems for UAV-enabled early fire detection},
+  author={Kalatzis, Nikos and Avgeris, Marios and Dechouniotis, Dimitris and Papadakis-Vlachopapadopoulos, Konstantinos and Roussaki, Ioanna and Papavassiliou, Symeon},
+  booktitle={2018 IEEE international conference on smart computing (SMARTCOMP)},
+  pages={106--114},
+  year={2018},
+  organization={IEEE}
+}
+@inproceedings{15,
+  title={Application of artificial intelligence in UAV platforms for early forest fire detection},
+  author={Kinaneva, Diyana and Hristov, Georgi and Raychev, Jordan and Zahariev, Plamen},
+  booktitle={2019 27th National Conference with International Participation (TELECOM)},
+  pages={50--53},
+  year={2019},
+  organization={IEEE}
+}
+ @inproceedings{16,
+  title={Fire segmentation using a DeepLabv3+ architecture},
+  author={Harkat, Houda and Nascimento, Jose and Bernardino, Alexandre},
+  booktitle={Image and signal processing for remote sensing XXVI},
+  volume={11533},
+  pages={134--145},
+  year={2020},
+  organization={SPIE}
+}
+@article{17,
+  title={Fire images classification based on a handcraft approach},
+  author={Harkat, Houda and Nascimento, Jos{\'e} MP and Bernardino, Alexandre and Ahmed, Hasmath Farhana Thariq},
+  journal={Expert Systems with Applications},
+  volume={212},
+  pages={118594},
+  year={2023},
+  publisher={Elsevier}
+}
+@inproceedings{18,
+  title={Fire detection using infrared images for UAV-based forest fire surveillance},
+  author={Yuan, Chi and Liu, Zhixiang and Zhang, Youmin},
+  booktitle={2017 International Conference on Unmanned Aircraft Systems (ICUAS)},
+  pages={567--572},
+  year={2017},
+  organization={IEEE}
+}
+ @article{19,
+  title={Comparison and analysis of three MobileNet-based models for wildfire detection},
+  author={Du, Shiyan and Li, Jiacheng and Noto, Masato},
+  journal={Journal of Advances in Information Technology},
+  volume={15},
+  number={4},
+  pages={511--518},
+  year={2024},
+  publisher={Engineering and Technology Publishing}
+}
+@inproceedings{20,
+  title={Unmanned aerial vehicle based forest fire monitoring and detection using image processing technique},
+  author={Yuan, Chi and Ghamry, Khaled A and Liu, Zhixiang and Zhang, Youmin},
+  booktitle={2016 IEEE Chinese Guidance, Navigation and Control Conference (CGNCC)},
+  pages={1870--1875},
+  year={2016},
+  organization={IEEE}
+}
+@inproceedings{21,
+  title={Optimizing the Deployment of Multi-UAVs in Emergency Response Networks},
+  author={Hassan, Ali and Javed, Sadaf and Ahmad, Rizwan and Ahmed, Waqas and Kiani, Adnan and Alam, Muhammad Mahtab},
+  booktitle={2024 19th Biennial Baltic Electronics Conference (BEC)},
+  pages={1--6},
+  year={2024},
+  organization={IEEE}
+}
+@incollection{22,
+  title={The role of machine learning in uav-assisted communication},
+  author={Javed, Sadaf and Hassan, Ali and Ahmad, Rizwan and Qazi, Shams and Saadat, Ahsan and Ahmed, Waqas},
+  booktitle={Applications of Machine Learning in UAV Networks},
+  pages={1--26},
+  year={2024},
+  publisher={IGI Global Scientific Publishing}
+}
+@misc{23, title={Hundreds of wildfires continue to burn different parts of Canada}, url={https://montreal.citynews.ca/2025/07/02/hundreds-of-wildfires-continue-to-burn-different-parts-of-canada/}, journal={CityNews Montreal}, author={Staff, News}, year={2025}, month={Jul}} 
+@article{swaminathan2025,
+  title={Benchmarking deep learning models on {NVIDIA Jetson Nano} for real-time systems},
+  author={Swaminathan, P.S. and Silver, C. and Akilan, T. and Kumar, J.},
+  journal={Procedia Computer Science},
+  volume={260},
+  pages={906--913},
+  year={2025}
+}
 
+@article{khan2024,
+  title={Real-time fire detection: Integrating lightweight deep learning models on drones with edge computing},
+  author={Khan, R.},
+  journal={Drones},
+  volume={8},
+  number={9},
+  pages={483},
+  year={2024}
+}
+
+@inproceedings{mahmoudi2025,
+  title={Edge {AI} system for real-time forest fire detection using compressed deep learning models},
+  author={Mahmoudi, R.A. and Gloesener, M. and Benkedadra, M. and Lerat, J.L.},
+  booktitle={Proc. Copry},
+  pages={847--854},
+  year={2025}
+}
+
+@article{aral2023,
+  title={Lightweight and attention-based {CNN} architecture for wildfire detection using {UAV} vision data},
+  author={Aral, K.A. and Zaluboglu, C. and Sezer, E.A.},
+  journal={International Journal of Remote Sensing},
+  volume={48},
+  number={18},
+  pages={5768--5787},
+  year={2023}
+}
+
+@inproceedings{mittal2020,
+  title={Accelerated computer vision inference with {AI} on the edge},
+  author={Mittal, Y. and Bhushan, B.},
+  booktitle={2020 IEEE 9th International Conference on Communication Systems and Network Technologies (CSNT)},
+  pages={55--60},
+  year={2020},
+  organization={IEEE}
+}
