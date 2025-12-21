@@ -1,15 +1,37 @@
 # 🔥 Real-Time Fire Detection on Jetson Edge Devices
 
-This folder contains a real-time fire detection system optimized for **NVIDIA Jetson Nano** and **Jetson Orin** platforms. The implementation provides immediate, low-latency fire detection directly from a USB webcam, making it ideal for standalone edge deployment.
+This folder contains a real-time fire detection methods optimized for **NVIDIA Jetson Nano** and **Jetson Orin** platforms. The implementation provides immediate, low-latency fire detection directly from a USB webcam, making it ideal for standalone edge deployment.
 
 ---
+## 🔥 Available Detection Methods
 
+### 1. **fire_hybrid.py** 
+- ✅ **Ultra-fast**: 30+ FPS on Jetson Orin
+- ✅ **Detects small flames**: Works perfectly with lighter flames
+- ✅ **Hardware buzzer support**: Optional GPIO buzzer integration
+
+  
+### 2. **fire_flicker.py** - Advanced Flicker Detection
+- ✅ **Smart filtering**: Distinguishes actual fire from red objects (e.g., lighter body)
+- ✅ **Triple verification**: Color + Brightness + Flicker analysis
+- ✅ **Reduces false positives**: Won't detect humans or static red objects
+
+  
+### 3. **fire_yolo.py** - YOLO-Based Detection
+- ✅ **High accuracy**: Uses trained YOLO model for fire/smoke
+- ✅ **Segmentation masks**: Visual overlay of detected regions
+- ⚠️ **Slower**: 5-10 FPS on Jetson Orin (GPU acceleration helps)
+- 📦 **Requires**: Pre-trained model file (`Smoke Fire.pt`)(Model file is given in Detection folder)
+
+---
 ## ⚡ Quick Start: Run in 1 Minute
 
+### Method 1: (Fastest)
+
 **Step 1: Save the Script**
-Create a new file called `fire_hybrid.py` on your Jetson Orin and paste in the entire script code:
 ```bash
 nano fire_hybrid.py
+# Use the fire_hybrid.py file
 ```
 
 **Step 2: Run the Detection**
@@ -17,6 +39,24 @@ nano fire_hybrid.py
 python3 fire_hybrid.py
 ```
 
+### Method 2: YOLO Detection (Most Accurate)
+
+**Step 1: Find your YOLO model**
+```bash
+find ~ -name "Smoke Fire.pt" 2>/dev/null
+# Example output: /home/orin/Downloads/Smoke Fire.pt
+```
+
+**Step 2: Update model path in script**
+```bash
+nano fire_yolo.py
+# Change MODEL_PATH to your model location
+```
+
+**Step 3: Run YOLO detection**
+```bash
+python3 fire_yolo.py
+```
 **Controls While Running:**
 - **Press `q`** to quit
 - **Press `s`** to save a screenshot
@@ -57,24 +97,33 @@ sudo apt upgrade -y
 sudo apt install python3-pip python3-dev libjpeg-dev libopenblas-dev -y
 ```
 
-### Step 2: Install PyTorch for Jetson (Official)
+**Step 2: Install Python Libraries**
+```bash
+pip3 install opencv-python numpy
+```
+### Step 3: Install PyTorch for Jetson (Official)
 ```bash
 pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/jetson
 ```
 
-### Step 3: Install Computer Vision Libraries
+**Step 4: Install Ultralytics YOLO**
+```bash
+pip3 install ultralytics
+```
+### Step 5: Install Computer Vision Libraries
 ```bash
 pip3 install numpy opencv-python-headless pillow matplotlib scikit-image
 ```
 
-### Step 4: Verify All Installations
+**Step 6: Verify All Installations**
 ```bash
 python3 -c "
-import torch, cv2, numpy, PIL, matplotlib
+import torch, cv2, numpy
+from ultralytics import YOLO
 print('✅ PyTorch:', torch.__version__)
 print('✅ CUDA Available:', torch.cuda.is_available())
 print('✅ OpenCV:', cv2.__version__)
-print('✅ All libraries installed successfully!')
+print('✅ Ultralytics installed successfully!')
 "
 ```
 
