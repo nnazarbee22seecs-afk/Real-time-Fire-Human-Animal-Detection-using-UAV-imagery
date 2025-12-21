@@ -1,135 +1,153 @@
-# Minutes of Meeting (MoM)
 
-**Project Title:** Real-Time Multi-Class Fire for UAV Search & Rescue
+## 📅 Meeting Minutes
 
-**Repository:** GitHub (Project Documentation)
+### **Meeting #1: Project Kick-off & Planning**
+**Date:** 20 November 2025 | **Time:** 03:00 PM – 04:00 PM | **Mode:** In-person/Online
 
-**Meeting Type:** Project Kick-off & Planning
+#### **Objective:**
+Formally initiate the project, define the problem statement, finalize project scope, assign roles, and establish technical roadmap for UAV-based fire detection system.
 
-**Mode:** In-person / Online
+#### **Key Decisions:**
+- Use deep learning-based object detection for aerial imagery
+- Focus on lightweight models suitable for real-time inference (YOLO-based)
+- Initial development in simulation before hardware deployment
+- Regular documentation and GitHub updates required
 
-**Date:** 20 November 2025
-
-**Time:** 03:00 PM – 04:00 PM
-
-**Location:** University Lab / Online (Team Coordination)
-
----
-
-## 1. Attendees
-
-| Name           | Registration No. | Role                     |
-| -------------- | ---------------- | ------------------------ |
-| Ayesha Hussain | 404215           | Simulation & Algorithms  |
-| Arbaaz Alam    | 411425           | Research & Documentation |
-| Bushra         | 429427           | Research & Documentation |
-| Nayab          | 414017           | Embedded Systems         |
+#### **Action Items:**
+| Task | Assigned To | Deadline |
+|------|-------------|----------|
+| Literature review on UAV-based detection | Bushra | 20 Nov 2025 |
+| Algorithm selection and simulation setup | Ayesha Hussain | 20 Nov 2025 |
+| Project documentation & GitHub structuring | Arbaaz Alam | 20 Nov 2025 |
+| Embedded system integration planning | Nayab | 20 Nov 2025 |
 
 ---
 
-## 2. Meeting Objective
+### **Meeting #2: Technical Implementation Review**
+**Date:** 13 December 2025 | **Time:** 02:00 PM – 03:30 PM | **Mode:** Online
 
-The objective of this meeting was to formally initiate the project, define the problem statement, finalize the project scope, assign roles and responsibilities, and agree on the initial technical roadmap for developing a **real-time multi-class detection system for UAV-based search and rescue operations**.
+#### **Progress Achieved:**
+- ✅ YOLOv12 fire/smoke detection system implemented
+- ✅ Two detection methods developed:
+  - `fire_hybrid.py`: Ultra-fast (30+ FPS on Jetson Orin)
+  - `fire_yolo.py`: High-accuracy (89% mAP)
+- ✅ Pre-trained `Smoke Fire.pt` model tested and verified
+- ✅ Comprehensive deployment documentation created
 
----
+#### **Technical Specifications Finalized:**
+- **Model:** YOLOv12 trained on fire/smoke dataset
+- **Classes:** Fire, Smoke (2 classes)
+- **Input Resolution:** 640x640
+- **Performance:** 89% mAP @ 0.5 IoU
 
-## 3. Project Overview
-
-The project aims to design and implement a **real-time detection system** mounted on a **UAV (Unmanned Aerial Vehicle)** to assist in **search and rescue missions**. The system will be capable of detecting and classifying multiple object categories (e.g., humans, animals, obstacles, fire/smoke) from aerial imagery or video streams using computer vision and machine learning techniques. The solution emphasizes **real-time performance, accuracy, and practical deployment constraints**.
-
----
-
-## 4. Agenda Items Discussed
-
-* Understanding the problem statement and real-world use case
-* Finalizing system architecture (UAV + processing pipeline)
-* Selection of detection approach (traditional vs deep learning)
-* Dataset requirements and sources
-* Simulation and testing environment
-* Hardware and embedded system considerations
-* Documentation and reporting structure
-* Task distribution among group members
-
----
-
-## 5. Key Discussions & Decisions
-
-### 5.1 Detection Approach
-
-* The team agreed to use **deep learning–based object detection** for detection due to better robustness and accuracy in aerial imagery.
-* Lightweight models suitable for real-time inference (e.g., YOLO-based architectures) will be explored.
-
-### 5.2 Simulation & Testing
-
-* Initial development and validation will be carried out in a **simulation environment** before hardware deployment.
-* Performance metrics such as **accuracy, precision, recall, FPS (frames per second), and latency** will be evaluated.
-
-### 5.3 Embedded & UAV Integration
-
-* Embedded system constraints (processing power, energy efficiency, and onboard deployment) were discussed.
-* Possibility of edge computing versus ground-station processing was considered.
-
-### 5.4 Documentation & Research
-
-* Proper research papers, datasets, and benchmarks will be reviewed and cited.
-* All progress, experiments, and results will be documented and pushed to GitHub regularly.
+#### **Action Items:**
+| Task | Assigned To | Deadline |
+|------|-------------|----------|
+| Complete Jetson Nano deployment testing | Nayab | 14 Dec 2025 |
+| Create comparison video (hybrid vs YOLO) | Ayesha Hussain | 14 Dec 2025 |
+| Update GitHub with installation guide | Arbaaz Alam | 15 Dec 2025 |
+| Test on real USB webcam | Bushra | 14 Dec 2025 |
 
 ---
 
-## 6. Roles & Responsibilities
+### **Meeting #3: Deployment & Optimization**
+**Date:** 16 December 2025 | **Time:** 10:00 AM – 12:00 PM | **Mode:** Hybrid
 
-### Ayesha Hussain – *Simulation & Algorithms*
+#### **Deployment Success:**
+- ✅ Successfully deployed on NVIDIA Jetson Nano & Orin
+- ✅ All dependencies installed (JetPack, PyTorch, OpenCV, Ultralytics)
+- ✅ Both detection methods working on edge devices
+- ✅ Real-time webcam feed processing implemented
 
-* Design and implement detection algorithms
-* Work on simulation models and algorithm optimization
-* Evaluate model performance and tune parameters
+#### **Performance Results:**
+```
+Method 1: fire_hybrid.py (Fast)
+├── Jetson Orin: 30+ FPS
+├── Jetson Nano: 18 FPS
+├── Accuracy: Good for small flames
+└── Best for: Real-time monitoring
 
-### Arbaaz Alam – *Research & Documentation*
+Method 2: fire_yolo.py (Accurate)
+├── Jetson Orin: 8-12 FPS
+├── Jetson Nano: 5-7 FPS
+├── Accuracy: 89% mAP
+└── Best for: Critical detection
+```
 
-* Define problem statement, objectives, and methodology
-* Maintain GitHub documentation and reports
-* Prepare MoM, progress reports, and final documentation
-
-### Bushra – *Research & Documentation*
-
-* Conduct literature review and dataset research
-* Assist in methodology design and result analysis
-* Support documentation and presentation preparation
-
-### Nayab – *Embedded Systems*
-
-* Handle UAV and embedded system considerations
-* Work on hardware feasibility and integration planning
-* Optimize system for real-time and resource constraints
-
----
-
-## 7. Action Items
-
-| Task                                       | Assigned To    | Deadline         |
-| ------------------------------------------ | -------------- | ---------------- |
-| Literature review on UAV-based detection   | Bushra         | 20 November 2025 |
-| Algorithm selection and simulation setup  | Ayesha Hussain | 20 November 2025 |
-| Project documentation & GitHub structuring | Arbaaz Alam    | 20 November 2025 |
-| Embedded system integration of whole system         | Nayab          | 20 November 2025 |
+#### **Action Items:**
+| Task | Assigned To | Deadline |
+|------|-------------|----------|
+| Create performance comparison table | Bushra | 17 Dec 2025 |
+| Optimize YOLO model for better FPS | Ayesha Hussain | 17 Dec 2025 |
+| Prepare demo script for presentation | Nayab | 17 Dec 2025 |
+| Document troubleshooting steps | Arbaaz Alam | 17 Dec 2025 |
 
 ---
 
-## 8. Risks & Mitigation
+### **Meeting #4: Project Completion & Final Review**
+**Date:** 17 December 2025 | **Time:** 02:00 PM – 04:00 PM | **Mode:** In-person
 
-* **Real-time performance limitations:** Use lightweight models and optimization techniques.
-* **Hardware constraints:** Early consideration of embedded deployment.
-* **Dataset mismatch with aerial views:** Use UAV-specific datasets and data augmentation.
+#### **Project Completion Status:**
+✅ **Core Detection System Complete**
+- `fire_hybrid.py`: Ultra-fast detection (30+ FPS)
+- `fire_yolo.py`: High-accuracy detection (89% mAP)
+
+✅ **Deployment Ready**
+- Jetson Nano & Orin compatible
+- USB webcam support verified
+- Standalone edge operation confirmed
+
+✅ **Documentation Complete**
+- Installation guides
+- Troubleshooting steps
+- Performance benchmarks
+- GitHub repository organized
+
+#### **Final System Specifications:**
+```
+REAL-TIME FIRE DETECTION SYSTEM
+├── Detection Methods: 2 (Hybrid + YOLO)
+├── Classes Detected: Fire, Smoke
+├── Platform Support: NVIDIA Jetson Series
+├── Input Source: USB Webcam
+├── Max FPS: 30+ (Orin), 18 (Nano)
+├── Accuracy: 89% mAP (YOLO method)
+└── Deployment: Standalone edge device
+```
+
+#### **Project Deliverables Completed:**
+1. **Code Repository:** Complete with both detection methods
+2. **Documentation:** Step-by-step installation and usage guides
+3. **Models:** Pre-trained `Smoke Fire.pt` YOLOv12 model
+4. **Testing:** Verified on multiple hardware configurations
+5. **CI/CD:** GitHub Actions pipeline implemented
+6. **Demo:** Ready-to-run Python scripts
 
 ---
 
-## 9. Next Meeting
-
-**Tentative Date:** 10 December 2025 (Final Project Submission)
-**Agenda:** Review literature findings, finalize model selection, and discuss initial simulation results.
+## 📊 Project Timeline Summary
+| Date | Milestone | Status |
+|------|-----------|--------|
+| 20 Nov 2025 | Project Kick-off | ✅ Completed |
+| 13 Dec 2025 | Technical Implementation | ✅ Completed |
+| 16 Dec 2025 | Deployment & Optimization | ✅ Completed |
+| 17 Dec 2025 | Final Integration | ✅ Completed |
+| 19 Dec 2025 | Project Submission | 🎯 Target |
 
 ---
 
-**Meeting Adjourned**
+## 👥 Team Contributions Summary
+| Member | Key Contributions |
+|--------|-------------------|
+| **Ayesha Hussain** | Algorithm implementation, model training, performance optimization |
+| **Arbaaz Alam** | Documentation, GitHub management, project structuring |
+| **Bushra** | Literature review, testing, performance analysis |
+| **Nayab** | Jetson deployment, hardware integration, edge optimization |
 
+---
 
+**Project Status:** ✅ **COMPLETED** - Ready for Submission
+
+*Last Updated: 17 December 2025*
+
+---
