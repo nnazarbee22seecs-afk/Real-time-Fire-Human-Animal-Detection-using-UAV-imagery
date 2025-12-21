@@ -8,7 +8,6 @@ This folder contains a real-time fire detection methods optimized for **NVIDIA J
 ### 1. **fire_hybrid.py** 
 - ✅ **Ultra-fast**: 30+ FPS on Jetson Orin
 - ✅ **Detects small flames**: Works perfectly with lighter flames
-- ✅ **Hardware buzzer support**: Optional GPIO buzzer integration
 
   
 ### 2. **fire_flicker.py** - Advanced Flicker Detection
@@ -192,11 +191,6 @@ python3 fire_hybrid.py
 4. Visit NVIDIA forums with your error messages
 
 ---
-
-**🎉 Ready to launch! Run:**
-```bash
-python3 fire_hybrid.py
-```
 
 *Part of Real-time-Fire-Human-Animal-Detection-using-UAV-imagery project*  
 *Compatible with: NVIDIA Jetson Orin Series*  
